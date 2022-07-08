@@ -1,0 +1,23 @@
+.button {
+    background-color: blue;
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+    border-radius: 20px;
+    outline: none;
+    color:wheat;
+    border: none;
+    font: size 15px;
+    padding: 8px;
+}
+.inline {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+}
+.text {
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Herf javascrip
+        </title>
+        <script>
+            function getHtmlContentToShow(event)
+            {
+                console.log("Do Something here...");
+                alert("Do something here...");
+                window.location.replace("/formValidation/login.html")
+            }
+            const btn =document.getElementById("btn");
+            btn.addEventListener('Click',getHtmlContentToShow)
+        </script>
+    </head>
+    <body>
+        <div>click on buttton to submit</div>
+        <button id="btn" onclick="getHtmlContentToShow()">click me</button>
+    </body>
+</html>

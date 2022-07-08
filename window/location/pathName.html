@@ -1,0 +1,15 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title>host</title>
+    </head>
+    <body>
+        <h>path name is : </h>
+        <p id="host"></p>
+        <script>
+            // chỉ trả phần về đường dẫn không bao ngồm tên máy chủ
+            let path= window.location.pathname;
+            document.getElementById("host").innerHTML = path;
+        </script>
+    </body>
+</html>

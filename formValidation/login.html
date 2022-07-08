@@ -1,0 +1,26 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title>validate</title>
+        <script src="./javascrip/validateForm.js"></script>
+        <link rel="stylesheet" href="./css/login.css" />
+    </head>
+    <body>
+        <section>
+            <div>
+                <form id="form" onsubmit="validateForm(event)" method="get" class="form row">
+                    <div class="comlum">
+                        <b class="titel">login</b>
+                        <textarea id="user" class="input" placeholder="nhập tên đăng nhập"></textarea>
+                        <input id="pass" type="password" class="input" placeholder="nhập password"></input>
+                        <div class="row" style="margin:auto;padding-top: 20px;">
+                            <button class="btn btnLeft" type="submit">login</button>
+                            <button class="btn btnRight">cancel</button>
+                        </div>
+                    </div>
+                    <img src="./img/images.jpg" class="right" />
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+.form{
+    height: auto;
+    width: fit-content;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+    margin:auto;
+    margin-top: 100px;
+    max-width: 1000px;
+    zoom: 1.5;
+}
+.comlum{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+}
+.left{
+    padding: 20px;
+    width: auto;
+    height: auto;
+}
+.right{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: auto;
+    height:auto;
+}
+.titel{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: blue;
+}
+.input{
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+    padding: 5px;
+    width: 200px;
+    height: 20px;
+    resize: none;
+    outline: none;
+}
+.btnRight
+{
+    margin-left: 15px;
+}
+.btnLeft{
+    margin-right: 15px;
+}
+.btn{
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 70px;
+    color: wheat;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}

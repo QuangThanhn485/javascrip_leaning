@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div id="element">
+        <p>this is text</p>
+    </div>
+  </body>
+  <script>
+    //create element type p
+    const element = document.createElement("p");
+
+    //set content for element p
+    const content =  document.createTextNode("create success ");
+    element.appendChild(content);
+
+    //add element p inside div element
+    const add =  document.getElementById("element");
+    add.appendChild(element);
+    // else can use insertBefore()
+  </script>
+</html>

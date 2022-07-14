@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Async / Await</title>
+</head>
+<body>
+    <p>
+        using Async/Await
+    </p>
+    <p1 id="demo"></p1>
+    <script>
+        async function Display()
+        {
+            let MyPromise = new Promise(
+                function (resolve){
+                    return resolve("Success !")
+                }
+            )
+            document.getElementById("demo").innerHTML = await MyPromise
+        }
+        Display();
+    </script>
+</body>
